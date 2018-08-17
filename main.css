@@ -1,7 +1,14 @@
 body {
-      padding: 0px;
-      margin: 0px;
-      background-color: white;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(90,10,124,1) 44%, rgba(0,212,255,1) 100%);   
+}
+
+p{
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body::-webkit-scrollbar {
