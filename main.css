@@ -1,0 +1,90 @@
+body {
+      padding: 0px;
+      margin: 0px;
+      background-color: white;
+}
+
+body::-webkit-scrollbar {
+display: none;
+}
+
+.material-icons{
+    font-size: 14px
+}
+
+.button{
+    -webkit-app-region: no-drag;
+    display: inline-block;
+    position: right;
+    width: 45px;
+    height: 25px;
+    margin: 0;
+    padding: 0px; /*T-R-B-L*/
+    overflow: hidden;
+
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+
+    color: #a0a0a0;
+    background-color: transparent;
+    transition: background-color 0.25s ease;
+    font-size: 12px;
+
+    user-select: none;
+}
+
+.button:focus{
+    outline: none;
+}
+
+.button:hover{
+    background-color: #888;
+    color: #fff;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button:hover:active{
+    background-color: #666;
+    transition: none;
+}
+#close-btn:hover{
+    background-color: #e81123;
+    color: #fff;
+}
+#close-btn:hover:active{
+    background-color: #bf0f1d;
+    transition: none;
+}
+
+#title-bar {
+    position: fixed;
+    top:0;
+    -webkit-app-region: drag;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    vertical-align: middle;
+    background-color: #252424;
+    padding: none;
+    margin: 0px;
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+
+#title {
+    position: fixed;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding-left: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#title-bar-btns {
+    -webkit-app-region: no-drag;
+    position: fixed;
+    align-content: right;
+    top: 0px;
+    right: 0px;
+}
